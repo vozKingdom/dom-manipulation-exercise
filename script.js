@@ -35,3 +35,18 @@ div.appendChild(contentPara);
 const divPara = document.createElement('p');
 divPara.textContent = '--- the truth shall prevail ---';
 div.appendChild(divPara);
+
+
+
+const btnTwo = document.querySelector('#btnTwo');
+btnTwo.onclick= () => alert('MAXIMUM ABLAZE!   EACH AND EVERY SECOND!!!')
+
+const btnThree = document.querySelector('#btnThree');
+btnThree.addEventListener("click", () => {
+    alert('TRUST IN HIM');
+});
+
+const btnFour = document.querySelector('#btnFour');
+btnFour.addEventListener("click", () => {
+    alert(btnFour.id)
+});
